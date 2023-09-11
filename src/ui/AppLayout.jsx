@@ -11,7 +11,8 @@ export default function AppLayout() {
 
   return (
     <div className=" grid h-screen grid-rows-[auto_1fr_auto]">
-      {isLoading && <Loader />}
+      {/* {isLoading && <Loader />} */}
+      {true && <Loader />}
       <Header />
 
       <div className="overflow-scroll">
